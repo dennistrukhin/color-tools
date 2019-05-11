@@ -1,0 +1,24 @@
+{
+  "name": "dennistrukhin/color-tools",
+  "authors": [
+    {
+      "name": "Dennis Trukhin (Dvt)",
+      "email": "dennis.trukhin@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "version": "0.1.0",
+  "description": "A set of tools to convert colors between color spaces",
+  "license": "GPL-3.0",
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "DennisTrukhin\\ColorTools\\": "src/"
+    }
+  }
+}
